@@ -76,6 +76,8 @@ android {
 
     namespace "com.yourprojectname"
     defaultConfig {
+            missingDimensionStrategy 'react-native-camera', 'general' // <--- insert this line
+
         applicationId "com.yourprojectname"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
